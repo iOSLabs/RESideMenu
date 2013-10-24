@@ -32,11 +32,7 @@
 
 @end
 
-@interface RESideMenu : UIViewController {
-  @protected
-    UIViewController *_contentViewController;
-    UIViewController *_menuViewController;
-}
+@interface RESideMenu : UIViewController
 
 @property (assign, readwrite, nonatomic) NSTimeInterval animationDuration;
 @property (strong, readwrite, nonatomic) UIImage *backgroundImage;

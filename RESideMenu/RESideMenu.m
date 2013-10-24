@@ -38,9 +38,6 @@
 
 @implementation RESideMenu
 
-@synthesize contentViewController = _contentViewController;
-@synthesize menuViewController    = _menuViewController;
-
 - (id)init
 {
     self = [super init];
